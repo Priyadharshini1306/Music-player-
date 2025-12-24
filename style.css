@@ -38,7 +38,7 @@ body {
 /* HERO SECTION */
 .hero {
     height: 100vh;
-    background: url("https://i.imgur.com/7yUvePI.jpg") center/cover no-repeat;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,3 +89,4 @@ footer {
     font-size: 14px;
     opacity: 0.6;
 }
+
