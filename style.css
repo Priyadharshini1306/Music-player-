@@ -16,11 +16,12 @@ body {
     top: 0;
     width: 100%;
     height: 70px;
-    background: rgba(0,0,0,0.85);
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 60px;
+    border-bottom: 1px solid #222;
     z-index: 100;
 }
 
@@ -38,31 +39,14 @@ body {
 /* HERO SECTION */
 .hero {
     height: 100vh;
-    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.75);
-}
-
+/* CONTENT */
 .hero-content {
-    position: relative;
-    z-index: 2;
     text-align: center;
-}
-
-.album-art {
-    width: 300px;
-    border-radius: 20px;
-    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
-    margin-bottom: 25px;
 }
 
 h1 {
@@ -83,10 +67,10 @@ audio {
 /* FOOTER */
 footer {
     height: 50px;
-    background: black;
+    background: #000;
     text-align: center;
     padding-top: 15px;
     font-size: 14px;
     opacity: 0.6;
+    border-top: 1px solid #222;
 }
-
